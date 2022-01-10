@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:id="@+id/grp2">
+<item android:title="My files" android:id="@+id/files" android:icon="@drawable/ic_baseline_folder_24"/>
+    <item android:title="Shared with me" android:id="@+id/sharewithme" android:icon="@drawable/ic_baseline_person_24"/>
+    <item android:title="Starred" android:id="@+id/star" android:icon="@drawable/ic_baseline_star_24"/>
+    <item android:title="Recent" android:id="@+id/recent" android:icon="@drawable/ic_baseline_access_time_24"/>
+    <item android:title="Offline" android:id="@+id/offline" android:icon="@drawable/ic_baseline_arrow_circle_down_24"/>
+    <item android:title="Upload" android:id="@+id/cloud" android:icon="@drawable/ic_baseline_cloud_download_24"/>
+    <item android:title="Trash" android:id="@+id/Trash" android:icon="@drawable/ic_baseline_restore_from_trash_24"/>
+
+    </group>
+    <item android:title="Setting" android:id="@+id/setting" android:icon="@drawable/ic_baseline_settings_24"/>
+</menu>
